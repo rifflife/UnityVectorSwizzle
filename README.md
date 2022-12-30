@@ -4,7 +4,9 @@ Vector swizzle extension class for Unity engine.
 Swizzling is the ability to compose vectors by arbitrarily rearranging and combining components of other vectors.
 https://en.wikipedia.org/wiki/Swizzling_(computer_graphics)
 # How to use
-You can compose arbitrarily rearranging any components of vector you want. And you can even compose "0" and "1" as well.
+You can compose arbitrarily rearranging any components of vector you want.<br>And you can even compose "0" and "1" as well.<br><br>
+
+## Examples
 Vector2 to Vector2
 ```
 Vector2 v = new Vector3(x, y)._x0(); // v = (x, 0)
