@@ -25,3 +25,10 @@ Vector3 v = new Vector2(x, y)._x0y(); // v = (x, 0, y)
 Vector3 v = new Vector2(x, y)._xxx(); // v = (x, x, x)
 ```
 You can also swizzle vector4 as well.
+# Support Type
+- Vector2
+- Vector3
+- Vector4
+- Vector2Int
+- Vector3Int
+- Quaternion
