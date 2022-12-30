@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public static class VectorSwizzlingExtension
+public static class VectorSwizzleExtension
 {
 	#region Vector2 to Vector2
 	public static Vector2 _xx(this Vector2 v) => new Vector2(v.x, v.x);
